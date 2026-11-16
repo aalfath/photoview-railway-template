@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.4.0-r2 (2026-11-16)
+
+No change to the deployed service.
+
+- README: add the Deploy on Railway button for the published template (`photoview`).
+
 ## 2.4.0-r1 (2026-11-16)
 
 First version of the template.

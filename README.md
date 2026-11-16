@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/photoview?utm_medium=integration&utm_source=button&utm_campaign=photoview)
+
 # PhotoView on Railway
 
 A Railway template for [PhotoView](https://github.com/photoview/photoview), a self-hosted photo gallery for your own server. This repo is what the template builds: the official PhotoView image plus a small wrapper.
