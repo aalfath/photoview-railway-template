@@ -1,0 +1,17 @@
+{
+	admin off
+	auto_https off
+	persist_config off
+}
+
+:{$PORT:8080} {
+	# WebDAV (upload and manage photos) lives under /webdav
+	handle /webdav* {
+		reverse_proxy 127.0.0.1:8082
+	}
+
+	# Everything else is PhotoView (UI and /api, including websockets)
+	handle {
+		reverse_proxy 127.0.0.1:8081
+	}
+}
